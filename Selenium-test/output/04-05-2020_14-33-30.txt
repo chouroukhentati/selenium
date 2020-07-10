@@ -1,0 +1,24 @@
+==START class tests.MultTest
+str: 630.00
+tva_ar11: 5.0
+ prix_unitaire1: 15.00
+quantité2: 40.0
+prix_Double: 630.0
+expectedprixavectaxe1: 660.0
+	junit.framework.AssertionFailedError: le prix avec taxe est correct expected:<630.0> but was:<660.0>
+	class tests.MultTest: test FAILED
+==END class tests.MultTest
+
+==START class tests.AddTest
+	org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@adresse="bonCommande/PH"]/p"}
+  (Session info: chrome=81.0.4044.129)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'KHOULOUD', ip: '192.168.0.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 546b17ac76e66b12e2f4e831c70c14fe
+*** Element info: {Using=xpath, value=//*[@adresse="bonCommande/PH"]/p}
+	class tests.AddTest: test FAILED
+==END class tests.AddTest
+

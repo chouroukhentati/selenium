@@ -1,0 +1,8 @@
+1585664248179	Convert local variable 'prix_htaxe' to field
+1585664375877	Convert local variable 'remise_ar1' to field
+1585664382986	Convert local variable 'total_remise_ar1' to field
+1585666383051	Convert local variable 'tva_ar1' to field
+1585666397072	Convert local variable 'prix_unitaire1_Double' to field
+1585666402583	Convert local variable 'quantité1' to field
+1585666412602	Convert local variable 'prix_htaxe_Double1' to field
+1585669873648	Convert local variable 'expectedprixavectaxe1' to field

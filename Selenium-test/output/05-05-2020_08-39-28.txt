@@ -1,0 +1,14 @@
+==START class tests.MultTest
+str: 630.00
+tva_ar11: 5.0
+ prix_unitaire1: 15.00
+quantité2: 40.0
+prix_Double: 630.0
+expectedprixavectaxe1: 660.0
+	junit.framework.AssertionFailedError:  expected:<630.0> but was:<660.0>
+	class tests.MultTest: test FAILED
+==END class tests.MultTest
+
+==START class tests.AddTest
+==END class tests.AddTest
+

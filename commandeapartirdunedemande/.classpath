@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Administrateur/Desktop/hamcrest-core-1.2.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/junit-4.0.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="G:/selenium/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/junit.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/junit-4.0.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="G:/test auto/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

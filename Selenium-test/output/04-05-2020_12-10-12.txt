@@ -1,0 +1,22 @@
+==START class tests.MultTest
+str: 630.00
+tva_ar11: 5.0
+ prix_unitaire1: 15.00
+quantité2: 40.0
+prix_Double: 630.0
+expectedprixavectaxe1: 660.0
+	junit.framework.AssertionFailedError: le prix avec taxe est correct expected:<630.0> but was:<660.0>
+	class tests.MultTest: test FAILED
+==END class tests.MultTest
+
+==START class tests.AddTest
+	org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="btn btn-default btn-valide" id="btnValiderBonCommandePHtrue">...</a> is not clickable at point (71, 105). Other element would receive the click: <div class="loading_wrp" style="top: 38px; position: fixed; height: 917px; width: 1912px; left: 0px; z-index: 999999; border-radius: 0px; background-color: rgb(238, 238, 238); opacity: 0.5; direction: ltr;">...</div>
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'KHOULOUD', ip: '192.168.0.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ad8939953c63b681c4b079042d223e7
+	class tests.AddTest: test FAILED
+==END class tests.AddTest
+
